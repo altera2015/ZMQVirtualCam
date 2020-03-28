@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DirectShowBaseClasses">
+      <UniqueIdentifier>{69e2b837-5870-4391-bb7b-400f8de0941d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="baseclasses\amextra.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\amfilter.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\amvideo.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\arithutil.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\combase.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\cprop.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\ctlutil.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\ddmm.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\dllentry.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\dllsetup.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\mtype.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\outputq.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\perflog.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\pstream.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\pullpin.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\refclock.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\renbase.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\schedule.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\seekpt.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\source.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\strmctl.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\sysclock.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\transfrm.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\transip.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\videoctl.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\vtrans.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\winctrl.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\winutil.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\wxdebug.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\wxlist.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclasses\wxutil.cpp">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="zmqfilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="exports.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="baseclasses\amextra.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\amfilter.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\cache.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\checkbmi.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\combase.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\cprop.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\ctlutil.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\ddmm.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\dllsetup.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\dxmperf.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\fourcc.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\measure.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\msgthrd.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\mtype.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\outputq.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\perflog.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\perfstruct.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\pstream.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\pullpin.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\refclock.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\reftime.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\renbase.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\schedule.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\seekpt.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\source.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\streams.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\strmctl.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\sysclock.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\transfrm.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\transip.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\videoctl.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\vtrans.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\winctrl.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\winutil.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\wxdebug.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\wxlist.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclasses\wxutil.h">
+      <Filter>DirectShowBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="zmqfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="filedetails.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
