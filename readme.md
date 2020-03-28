@@ -8,6 +8,7 @@ Installation
 Simply use the installer for automatic installation, or manual install can be done using regsvr32
 
 > regsvr32 32\ZMQVirtualCam.dll
+
 > regsvr32 64\ZMQVirtualCam.dll
 
 Uninstall
@@ -15,6 +16,7 @@ Uninstall
 Simply use the installer for automatic removal. To manually remove the filter use
 
 > regsvr32 /u 32\ZMQVirtualCam.dll
+
 > regsvr32 /u 64\ZMQVirtualCam.dll
 
 Usage
